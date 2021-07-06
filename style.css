@@ -140,12 +140,12 @@ padding-top: 75px;
 }
 /* statistics section end */
 
-/* newsletter section start */
-#newsletter{
+/* scroll section start */
+#scroll{
     background: linear-gradient(to bottom, #ff8008, #ffc837);
 }
 
-#newsletter h2{
+#scroll h2{
     color: black;
     padding-bottom: 3%;
 }
@@ -154,18 +154,18 @@ input:focus{
     outline: none;
 }
 
-#newsletter .left{
+#scroll .left{
     width: 50%;
     background: url('images/lemon.png') no-repeat center;
     height: 100%;
     background-attachment: fixed;
 }
 
-#newsletter p{
+#scroll p{
     margin: 10px 0;
 }
 
-/* newsletter section end */
+/* scroll section end */
 
 /* footer section start */
 #footer{
