@@ -120,25 +120,25 @@ padding-top: 75px;
 }
 /* recipe section end */
 
-/* statistics section start */
-#statistics{
+/* table section start */
+#table{
     margin: 80px;
 }
-#statistics .container{
+#table .container{
     box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.1);
     text-transform: capitalize;
     border-radius: 25px;
     justify-content: space-around;
     height: 200px;
 }
-#statistics .single{
+#table .firstpart{
     width: 18.5%;
     
 }
-#statistics p, #statistics h1{
+#table p, #table h1{
     color: black;
 }
-/* statistics section end */
+/* table section end */
 
 /* scroll section start */
 #scroll{
