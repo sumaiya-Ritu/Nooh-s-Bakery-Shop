@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* basic css */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6
+}
+.left, .right{
+    width: 45%;
+}
+img{
+    width: 100%;
+}
+h1, h2{
+    line-height: 1.2;
+    color: rgb(58, 58, 58);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+.button{
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, rgb(255, 136, 0), orangered);
+    border-radius: 22px;
+    box-shadow: 1px 2px 10px 5px rgba(255, 59, 0, 0.2);
+    font-weight: 700;
+}
+
+.button:hover{
+    transition: 0.3s;
+    background: linear-gradient(to left, rgb(255, 136, 0), orangered);
+}
+
+span{
+    color: orangered;
+}
+p{
+    width: 80%;
+}
+
+/* hero section start */
+#hero p{
+    color: rgb(68, 68, 68);
+    margin: 20px 0;
+}
+/* hero section end */
+
+/* about section start */
+#about {
+    background:url('./images/bg1.png') no-repeat center;
+}
+#about img{
+width: 65%;
+padding-top: 75px;
+}
+#about p{
+   margin: 20px 0 40px 0; 
+}
+/* about section end */
+
+/* recipe section start */
+#recipe{
+ padding: 60px 0;
+}
+
+.single h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.info h2, .info p{
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+#recipe .single{
+    width: 28%;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+ #recipe .single p{
+      width: 100%;
+      margin: 5px 0 20px 0;
+      text-align: left;
+  }
+
+#recipe img{
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.boxes .container{
+    height: auto;
+}
+/* recipe section end */
+
+/* statistics section start */
+#statistics{
+    margin: 80px;
+}
+#statistics .container{
+    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+    border-radius: 25px;
+    justify-content: space-around;
+    height: 200px;
+}
+#statistics .single{
+    width: 18.5%;
+    
+}
+#statistics p, #statistics h1{
+    color: black;
+}
+/* statistics section end */
+
+/* newsletter section start */
+#newsletter{
+    background: linear-gradient(to bottom, #ff8008, #ffc837);
+}
+
+#newsletter h2{
+    color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+#newsletter .left{
+    width: 50%;
+    background: url('images/lemon.png') no-repeat center;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+input[type=submit]{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=email]{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#newsletter p{
+    margin: 10px 0;
+}
+
+/* newsletter section end */
+
+/* Download section start  */
+#download .container{
+    background: url('./images/bg2.jpg') no-repeat center;
+    background-size: cover;
+    padding: 0 40px;
+    height: auto;
+    margin: 70px auto;
+}
+#download h2{
+    color: black;
+}
+#download p{
+    margin: 20px 0;
+    font-weight: 600;
+}
+.button-group{
+    display: flex;
+    width: 30%;
+}
+.button-group a img{
+    width: 200px;
+     border-radius: 15px;
+}
+#download .left{
+    width:40%;
+}
+#download .right{
+    width:60%
+}
+/* footer section start */
+#footer{
+    background: black;
+}
+#footer .container{
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: 50px 0;
+}
+#footer h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+#footer p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* footer section end */
