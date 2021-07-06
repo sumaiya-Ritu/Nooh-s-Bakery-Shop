@@ -49,7 +49,7 @@ h3{
 
 .button:hover{
     transition: 0.3s;
-    background: linear-gradient(to left, rgb(255, 136, 0), orangered);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 span{
