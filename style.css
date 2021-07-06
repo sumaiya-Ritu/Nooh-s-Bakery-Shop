@@ -59,12 +59,12 @@ p{
     width: 80%;
 }
 
-/* hero section start */
-#hero p{
+/* top section start */
+#top p{
     color: rgb(68, 68, 68);
     margin: 20px 0;
 }
-/* hero section end */
+/*  section end */
 
 /* about section start */
 #about {
@@ -147,6 +147,7 @@ padding-top: 75px;
 
 #newsletter h2{
     color: black;
+    padding-bottom: 3%;
 }
 
 input:focus{
@@ -160,54 +161,12 @@ input:focus{
     background-attachment: fixed;
 }
 
-input[type=submit]{
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-input[type=email]{
-    border: none;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 15px;
-}
-
 #newsletter p{
     margin: 10px 0;
 }
 
 /* newsletter section end */
 
-/* Download section start  */
-#download .container{
-    background: url('./images/bg2.jpg') no-repeat center;
-    background-size: cover;
-    padding: 0 40px;
-    height: auto;
-    margin: 70px auto;
-}
-#download h2{
-    color: black;
-}
-#download p{
-    margin: 20px 0;
-    font-weight: 600;
-}
-.button-group{
-    display: flex;
-    width: 30%;
-}
-.button-group a img{
-    width: 200px;
-     border-radius: 15px;
-}
-#download .left{
-    width:40%;
-}
-#download .right{
-    width:60%
-}
 /* footer section start */
 #footer{
     background: black;
