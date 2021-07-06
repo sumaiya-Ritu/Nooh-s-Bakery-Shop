@@ -193,6 +193,11 @@ input:focus{
     background-color: tomato;
     color: black;
   }
+  /* topnav right part */
+  .topnav-right {
+    float: right;
+  }
+  /* navbar ends */
 
 /* footer section start */
 #footer{
