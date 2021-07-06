@@ -64,11 +64,11 @@ p{
     color: rgb(68, 68, 68);
     margin: 20px 0;
 }
-/*  section end */
+/* top section end */
 
 /* about section start */
 #about {
-    background:url('./images/bg1.png') no-repeat center;
+    background:url('images/bg1.png') no-repeat center;
 }
 #about img{
 width: 65%;
@@ -100,7 +100,7 @@ padding-top: 75px;
     width: 28%;
     padding: 15px;
     border-radius: 25px;
-    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 5px 10px 8px rgba(0, 0, 0, 0.1);
     height: auto;
 }
 
@@ -166,6 +166,33 @@ input:focus{
 }
 
 /* scroll section end */
+/* Add a black background color to the top navigation */
+.topnav {
+    background: linear-gradient(to right, rgb(255, 136, 0), orangered);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: black;
+    color:white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: tomato;
+    color: black;
+  }
 
 /* footer section start */
 #footer{
